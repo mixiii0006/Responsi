@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function() {
       button.addEventListener('click', function(event) {
         event.preventDefault();
         const playlistUrl = this.getAttribute('data-playlist-url');
-        playlistFrame.innerHTML = `<iframe style="border-radius:12px" src="${playlistUrl}" width="90%" height="405" frameborder="0" allowtransparency="true" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>`;
+        playlistFrame.innerHTML = `<iframe style="border-radius:12px" src="${playlistUrl}" width="100%" height="405" frameborder="0" allowtransparency="true" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>`;
       });
     });
   });
