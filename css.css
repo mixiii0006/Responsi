@@ -1,10 +1,10 @@
-/* Reset some styles for consistency */
+
 body, h1, h2, h3, p, ul, li, a {
     margin: 0;
     padding: 0;
   }
   
-  /* Style the header */
+
   header {
     display: flex;
     justify-content: space-between;
@@ -44,7 +44,7 @@ body, h1, h2, h3, p, ul, li, a {
     text-decoration: none;
   }
   
-  /* Style the main content */
+  
 
   main {
     display: flex;
@@ -106,7 +106,7 @@ body, h1, h2, h3, p, ul, li, a {
     display: block;
   }
 
-  /* Style the aside */
+
   aside {
     flex: 1;
     flex-wrap: wrap;
@@ -133,7 +133,7 @@ body, h1, h2, h3, p, ul, li, a {
   .playlist-button {
     display: inline-block;
     padding: 10px 20px;
-    margin: 5px;
+    margin: 13px;
     border: 1px solid #ccc;
     background-color: #adbbc8;
     border-radius: 5px;
@@ -149,7 +149,7 @@ body, h1, h2, h3, p, ul, li, a {
   
   .playlist-list {
     text-align: center;
-    margin-bottom: 0px;
+    margin-bottom: 10px;
   }
   .button {
     display: inline-block;
@@ -169,7 +169,7 @@ body, h1, h2, h3, p, ul, li, a {
     background-color: #ddd;
   }
 
-  /* Style the footer */
+  
   footer {
     background-color: #080808;
     color: #fff;
