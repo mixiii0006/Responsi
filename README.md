@@ -1,0 +1,2 @@
+Natasya Salsabilla
+G1A022023
